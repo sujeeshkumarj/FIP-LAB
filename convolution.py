@@ -38,8 +38,8 @@ for i in range(0,n1):
             if((i-m)>=0 and (i-m)<d1):
                 for n in range(0,q):
                     if((j-n)>=0 and (j-n)<d2):
-                         # print(m, n)
-                        s = s + mask[m, n] * img[i-m, j-n]
+
+                     s = s + mask[m, n] * img[i-m, j-n]
         otpt[i,j] = s
 
 
