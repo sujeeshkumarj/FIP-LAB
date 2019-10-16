@@ -39,7 +39,7 @@ for i in range (0, 256):
     temp = 0
     for j in range (0, i+1):
         temp = temp + p[j]
-    s[i] = int(199 * temp)
+    s[i] = int(255 * temp)
 
 for i in range (0, d1):
     for j in range (0, d2):
